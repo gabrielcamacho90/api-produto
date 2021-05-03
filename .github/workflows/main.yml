@@ -44,7 +44,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            gabrielcamichel/api-bootcamp-produto:latest
+            # gabrielcamichel/api-bootcamp-produto:latest
             gabrielcamichel/api-bootcamp-produto:${{github.run_number}}
 
       # Runs a single command using the runners shell

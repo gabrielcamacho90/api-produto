@@ -45,7 +45,7 @@ jobs:
           push: true
           tags:
             # gabrielcamichel/api-bootcamp-produto:latest
-            gabrielcamichel/api-bootcamp-produto:${{github.run_number}}
+            gabrielcamichel/api-bootcamp-produto:v${{github.run_number}}
   
   CD:
     runs-on: ubuntu-latest
